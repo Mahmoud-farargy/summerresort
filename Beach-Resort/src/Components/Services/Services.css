@@ -1,0 +1,19 @@
+.services-section{
+    background-color:var(--dark-gray);
+}
+.service-info{
+    display: flex;
+    flex-direction:column;
+}
+.service{
+    text-align:center;
+}
+.service span{
+    color:var(--primary-clr);
+    font-size:3rem;
+}
+@media only screen and (max-width:600px){
+    .services-inner-section{
+        grid-template-columns: 1fr;
+    }
+}
